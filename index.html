@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PopUp Only CSS</title>
+</head>
+<body>
+
+<!-- Header
+======================= -->
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                PopUp
+            </div>
+
+<!-- Nav
+======================= -->
+            <nav class="nav">
+                <a class="nav__link" href="#sign-up" >Sign Up</a>
+                <a class="nav__link" href="#sign-in">Sign In</a>
+            </nav>
+
+        </div> <!--/.header__inner-->
+    </div> <!--/.container-->
+</header> <!--/.header-->
+
+<!-- PopUps
+======================= -->
+<div class="popup" id="sign-up"> <!-- Sign Up -->
+    <div class="popup__inner">
+        <h2 class="popup__title">Create New Account</h2>
+
+<!-- Form
+======================= -->
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <input class="form__input" type="email" placeholder="Your e-mail">
+            </div>
+            <div class="form__group">
+                <input class="form__input" type="text" placeholder="Username">
+            </div>
+            <div class="form__group">
+                <input class="form__input" type="password" placeholder="Password">
+            </div>
+            <div class="form__group">
+                <input class="form__input" type="password" placeholder="Confirm Password">
+            </div>
+
+            <button class="btn" type="submit">Sign Up</button>
+
+            <div class="form__links">
+                <a class="form__link" href="#">Close</a>
+                <a class="form__link" href="#sign-in">or Sign In</a>
+            </div>
+        </form> <!--/.form-->
+
+    </div> <!--/.popup__inner-->
+</div> <!--/.popup-->
+
+<div class="popup" id="sign-in"> <!-- Sign In -->
+    <div class="popup__inner">
+        <h2 class="popup__title">Welcome Back!</h2>
+
+<!-- Form
+======================= -->
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <input class="form__input" type="text" placeholder="Username">
+            </div>
+            <div class="form__group">
+                <input class="form__input" type="password" placeholder="Password">
+            </div>
+
+            <button class="btn" type="submit">Sign In</button>
+
+            <div class="form__links">
+                <a class="form__link" href="#">Close</a>
+                <a class="form__link" href="#sign-up">or Sign Up</a>
+            </div>
+        </form> <!--/.form-->
+
+    </div> <!--/.popup__inner-->
+</div> <!--/.popup-->
+
+</body>
+</html>
