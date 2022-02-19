@@ -1,0 +1,16 @@
+{
+  "name": "popup_only_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "himepage": "https://devshof.github.io/popup_css_only",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
